@@ -131,7 +131,6 @@ def insert_today_date():
 
 
 
-# API Call
 
 def request_api_call(PINCODE,DATE):
     request_link =  f"https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode={PINCODE}&date={DATE}"
